@@ -1,0 +1,23 @@
+# Build outputs
+build/*
+!build/.gitkeep
+build_out/
+installer/*
+!installer/.gitkeep
+
+# Logs
+logs/
+
+# MATLAB temporaries
+*.asv
+*.m~
+*.mex*
+*.mlappinstall
+*.mlapp
+slprj/
+codegen/
+
+# OS files
+Thumbs.db
+.DS_Store
+desktop.ini
